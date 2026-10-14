@@ -18,7 +18,7 @@ Ghostboard 0.6+ checks for signed updates hourly and asks before installing. **G
 
 Use Chat's compose menu to invite a colleague or join with a private invitation. Both Macs need the current app. Nearby Macs use LAN discovery; different networks need reachable saved IPs, such as WireGuard addresses. TCP port 45991 must be reachable.
 
-Groups are relayed by their creator's Mac, which must remain online. Files have no app-imposed size cap; available disk space, filesystem limits, and network speed apply. Folders are sent as ZIP archives. Downloads resume after interruption.
+Groups are relayed by their creator's Mac, which must remain online. Files have no app-imposed size cap; available disk space, filesystem limits, and network speed apply. Folders are sent as tar.gz archives. Downloads resume after interruption.
 
 Allow Ghostboard in System Settings → Notifications for received-message alerts. There is no cloud push service while the app is closed. Voice and video calls are not included.
 
